@@ -2,7 +2,7 @@ class RobotAthlete:
     def __init__(self, name):
         self.name = name
         self.energy = 100
-
+socet
     def run(self, distance):
         if self.energy >= distance * 2:
             self.energy -= distance * 2
