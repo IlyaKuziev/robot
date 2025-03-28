@@ -1,4 +1,4 @@
-class RobotAthlete:
+class RobotAthlete_28 march:
     def __init__(self, name):
         self.name = name
         self.energy = 100
