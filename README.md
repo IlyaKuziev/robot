@@ -1,7 +1,6 @@
 class RobotAthlete_01012025
 
 
-
 31vmarch:
     def __init__(self, name):
         self.name = name
