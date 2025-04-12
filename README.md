@@ -1,6 +1,16 @@
-he World Trade Center towers stand tall against a clear, bright blue morning sky. Streets bustle with pedestrians in suits, and yellow taxis move slowly through heavy traffic. Sunlight reflects sharply from glass windows of nearby buildings. Tom, the blue-gray cat, walks briskly along the wide gray sidewalk with a single black briefcase in his hand.<end_scene>
-<start_scene>Inside the World Trade Center lobby, expansive marble floors reflect warm golden recessed lighting. Gray marble pillars and brass fixtures highlight the elegant entryway, along with a brass elevator door. A uniformed doorman wearing a dark navy-blue suit stands behind a polished wooden counter. Tom, the blue-gray cat, with a single black briefcase in his hand calmly walks in from the right and approaches the elevator doors. Tom's left hand is empty.
-Inside the World Trade Center lobby, expansive marble floors reflect warm golden recessed lighting. Gray marble pillars and brass fixtures highlight the elegant entryway, along with a brass elevator door. A uniformed doorman wearing a dark navy-blue suit stands behind a polished wooden counter. Tom, the blue-gray cat, has a single black briefcase in his hand slowly presses the elevator button on the left side of the elevator and waits. Tom's left hand is empty.<end_scene>
+# Light-switching-program in he room
+def move(self):
+    self.y += self.speed_y
+    self.x += self.speed_x
+    self.angle += self.rotation_speed
+    if self.y > HEIGHT:
+        self.y = random.randint(-100, -40)
+        self.x = random.randint(0, WIDTH)
+
+def draw(self, screen):
+    rotated_image = pygame.transform.rotate(self.image, self.angle)
+    screen.blit(rotated_image, (self.x, self.y))
+
 
 31vmarch:
     def __init__(self, name):
