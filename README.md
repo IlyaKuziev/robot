@@ -1,9 +1,7 @@
 the testing
-
 def draw(self, screen):
     rotated_image = pygame.transform.rotate(self.image, self.angle)
     screen.blit(rotated_image, (self.x, self.y))
-
 31vmarch:
     def __init__(self, name):
         self.name = name
@@ -14,7 +12,6 @@ def draw(self, screen):
             print(f"{self.name} пробежал {distance} метров. Осталось энергии: {self.energy}")
         else:
             print(f"{self.name} устал и не может бежать.")
-
     def jump(self, height):
         if self.energy >= height * 5:
             self.energy -= height * 5
