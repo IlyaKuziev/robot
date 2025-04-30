@@ -4,7 +4,6 @@ def draw(self, screen):
     screen.blit(rotated_image, (self.x, self.y))
 31vmarch:
     def __init__(self, name):
-    
         self.name = name
         self.energy = 100
     def run(self, distance):
