@@ -10,7 +10,6 @@ def draw(self, screen):
         if self.energy >= distance * 2:
             self.energy -= distance * 2
             print(f"{self.name} пробежал {distance} метров. Осталось энергии: {self.energy}")
-            
         else:
         fe1f6fff9523ef1961b52f546f1594f96bbdc074
             print(f"{self.name} устал и не может бежать.")
