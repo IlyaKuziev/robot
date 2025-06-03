@@ -6,7 +6,8 @@ def draw(self, screen):
 31vmarch:
     def __init__(self, name):
         self.name = name
-        self.energy = 100
+        self.energy = 100 
+        //?
     def run(self, distance):
         if self.energy >= distance * 2:
             self.energy -= distance * 2
