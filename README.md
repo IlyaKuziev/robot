@@ -7,6 +7,7 @@ def draw(self, screen):
     def __init__(self, name):
         self.name = name
         self.energy = 100 
+          !!
         //?
     def run(self, distance):
         if self.energy >= distance * 2:
