@@ -7,7 +7,6 @@ def draw(self, screen):
     def __init__(self, name):
         self.name = name
         self
-           
           .energy = 100 
           !!
         //?
