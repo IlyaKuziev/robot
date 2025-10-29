@@ -4,7 +4,7 @@ def draw(self, screen):
     screen.blit(rotated_image, (self.x, self.y)) 
 31vmarch:a 
     def __init__(self, name): 
-        self.name = name
+        self.name = name 
         crypto
         self  
           .energy = 100
