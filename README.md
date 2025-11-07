@@ -8,6 +8,13 @@ def draw(self, screen):
         crypto
         self 
           .energy = 100
+
+
+
+
+
+
+          
           !!
         //?
     def run(self, distance): 
