@@ -8,8 +8,6 @@ def draw(self, screen):
         crypto
         self 
           .energy = 100
-
-
           
           !!
         //?
