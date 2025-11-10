@@ -9,7 +9,7 @@ def draw(self, screen):
         self 
           .energy = 100
 
-          
+    
           !!
         //?
     def run(self, distance): 
