@@ -9,7 +9,6 @@ def draw(self, screen):
         self 
           .energy = 100
 
-
           
           !!
         //?
