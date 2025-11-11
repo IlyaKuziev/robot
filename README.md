@@ -10,6 +10,8 @@ def draw(self, screen):
           .energy = 10
 
 
+
+
     
           !!
         //?
