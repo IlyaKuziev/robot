@@ -9,8 +9,7 @@ def draw(self, screen):
         self.name = name 
         crypto
         self 
-          .energy = 10
-
+          .energy = 1
     
           !!
         //?
