@@ -12,7 +12,7 @@ def draw(self, screen):
         //?  
 
 
-        
+    
     def run(self, distance): 
         if self.energy >= distance * 2:
             self.energy -= distance * 2
