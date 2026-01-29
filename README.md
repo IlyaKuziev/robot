@@ -6,7 +6,7 @@ def draw(self, screen):
 31vmarch:a 
     def __init__(self, name): 
         self.name = name  
-        crypto   
+        crypto  
         self           .energy = 1  
           !!
         //?  
