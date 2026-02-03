@@ -9,7 +9,7 @@ def draw(self, screen):
         self.name = name 
         crypto 
         self           .energy = 1 
-          !!
+          !! 
         //? 
 def run(self, distance): 
         if self.energy >= distance * 2:
